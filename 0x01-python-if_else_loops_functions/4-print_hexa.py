@@ -3,4 +3,4 @@
 # created by albert Ezoula
 
 for i in range(99):
-    print("{}".format(hex(i)))
+    print("{} = {}".format(i, hex(i)))
