@@ -5,7 +5,7 @@
 
 def islower(c):
     """Check for lowercase characters."""
-    if chr(c) >= 97 and chr(c) <= 122:
+    if c >= chr(97) and c <= chr(122:)
         return True
     else:
         return False
