@@ -1,1 +1,1 @@
-this is the readme file of 0x02-python-import_modules
+this is the readme of the 0x02-python-import_modules directory
