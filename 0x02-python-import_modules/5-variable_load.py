@@ -1,4 +1,4 @@
-#!usr/bin/python3
+#!/usr/bin/python3
 # 5-variable_load.py
 # Albert Ezoula
 if __name__ == "__main__":
