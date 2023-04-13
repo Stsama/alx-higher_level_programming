@@ -3,4 +3,10 @@
 # Ezoula Albert
 def square_matrix_simple(matrix=[]):
     """computes the square value of all integers of a matrix"""
-    return ([list(map(lambda x: x * x, rows) for rows in matrix)])
+    new_matrix = []
+    for rows in matrix:
+        row = []
+        for columns in rows:
+            row.append(columns ** 2)
+        new_matrix.append(row)
+    return new_matrix
