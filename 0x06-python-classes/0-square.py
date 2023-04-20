@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 # 0-square.py
 # Albert Ezoula
+"""Define a class Square."""
+
 class Square:
-    """an empty class Square that defines a square"""
+    """Represent a square."""
     pass
