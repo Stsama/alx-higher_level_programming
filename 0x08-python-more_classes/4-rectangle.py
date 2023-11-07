@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-# 3-rectangle.py
-# Albert Ezoula
+# 4-rectangle.py
+# created by Albert Ezoula
 """Define a rectangle class"""
 
 
@@ -67,3 +67,9 @@ class Rectangle:
             if i != self.__height - 1:
                 rect.append("\n")
         return ("".join(rect))
+
+    def __repr__(self):
+        """return a string representation of the rectangle to be able
+        to recreate a new instance by using eval()
+        """
+        return f"Rectangle({self.__width}, {self.__height})"
