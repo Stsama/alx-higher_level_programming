@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 # 0-lookup.py
 # Created by Albert Ezoula
+"""Defines an object attribute lookup function."""
+
+
 def lookup(obj):
-    """ returns the list of available attributes and methods of an object"""
+    """Return a list of an object's available attributes."""
     return (dir(obj))
