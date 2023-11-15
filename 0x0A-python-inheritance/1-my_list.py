@@ -1,12 +1,12 @@
 #!/usr/bin/python3
 # 1-my_list.py
-# Created by Albert Ezoula
-"""module that difine a class"""
+# Brennan D Baraban <375@holbertonschool.com>
+"""Defines an inherited list class MyList."""
 
 
 class MyList(list):
-    """represent the class Mylist"""
+    """Implements sorted printing for the built-in list class."""
 
     def print_sorted(self):
-        """prints the list, but sorted (ascending sort)"""
+        """Print a list in sorted ascending order."""
         print(sorted(self))
