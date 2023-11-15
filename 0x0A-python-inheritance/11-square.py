@@ -2,6 +2,7 @@
 # 11-square.py
 # Created by Albert Ezoula
 """module that difine a class"""
+Rectangle = __import__('9-rectangle').Rectangle
 
 
 class Square(Rectangle):
