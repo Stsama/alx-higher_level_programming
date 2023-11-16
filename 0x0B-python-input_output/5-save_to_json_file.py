@@ -10,5 +10,4 @@ def save_to_json_file(my_obj, filename):
     using a JSON representation
     """
     with open(filename, 'w') as f:
-        my_str = json.dumps(my_obj)
-        f.write(my_str)
+        json.dump(my_obj, f)
