@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 # 3-to_json_string.py
 # Albert Ezoula
-import json
 """Define a function that converts a json tto string"""
+import json
 
 
 def to_json_string(my_obj):
