@@ -17,8 +17,6 @@ def write_file(filename="", text=""):
         f.write(text)
     with open(filename, encoding="utf-8") as f:
         characters = 0
-        text_array = text.split()
-        for word in text_array:
-            for char in word:
+        for char in text:
                 characters += 1
         return (characters)
