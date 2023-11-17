@@ -2,7 +2,7 @@
 # models/rectangle.py
 # Albert Ezoula
 """Define a class Recangle"""
-from models.base import Base
+from base import Base
 
 
 class Rectangle(Base):
