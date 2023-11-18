@@ -27,7 +27,7 @@ class Rectangle(Base):
     @property
     def width(self):
         """Retrieves the value of the width"""
-        return (self.width)
+        return (self.__width)
 
     @width.setter
     def width(self, value):
@@ -36,11 +36,12 @@ class Rectangle(Base):
             raise TypeError("width must be an integer")
         if value <= 0:
             raise ValueError('width must be > 0')
+        self.__width = value
 
     @property
     def height(self):
         """Retrieves the value of the height"""
-        return (self.height)
+        return (self.__height)
 
     @height.setter
     def height(self, value):
@@ -49,11 +50,12 @@ class Rectangle(Base):
             raise TypeError("height must be an integer")
         if value <= 0:
             raise ValueError('height must be > 0')
+        self.__height = value
 
     @property
     def x(self):
         """Retrieves the value of the x"""
-        return (x.width)
+        return (x.__width)
 
     @x.setter
     def x(self, value):
@@ -62,11 +64,12 @@ class Rectangle(Base):
             raise TypeError("x must be an integer")
         if value < 0:
             raise ValueError('x must be >= 0')
+        self.__x = value
 
     @property
     def y(self):
         """Retrieves the value of the y"""
-        return (self.y)
+        return (self.__y)
 
     @y.setter
     def y(self, value):
@@ -75,3 +78,4 @@ class Rectangle(Base):
             raise TypeError("y must be an integer")
         if value < 0:
             raise ValueError('y must be >= 0')
+        self.__y = value
