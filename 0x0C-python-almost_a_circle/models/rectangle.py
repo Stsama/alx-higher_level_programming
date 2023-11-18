@@ -2,7 +2,7 @@
 # models/rectangle.py
 # Albert Ezoula
 """Define a class Recangle"""
-from base import Base
+from models.base  import Base
 
 
 class Rectangle(Base):
@@ -14,11 +14,12 @@ class Rectangle(Base):
             Args:
                 width(int) : the width of the recantgle
                 height(int) : the height of the rectangle
-                x(int) : the value o:7
+                x(int) : the value of
                 y(int) : the value of
+                id(int) : The identity of the new Rectangle.
         """
-        super().__init__(id)
         self.width = width
         self.height = height
         selfx = x
         self.y = y
+        super().__init__(id)
