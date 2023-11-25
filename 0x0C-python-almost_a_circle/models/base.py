@@ -7,6 +7,7 @@ import os
 import csv
 import turtle
 
+
 class Base:
     """Represent the Base """
 
@@ -105,7 +106,7 @@ class Base:
         except IOError:
             return []
 
-    @classmethod
+    @staticmethod
     def draw(list_rectangles, list_squares):
         """opens a window and draws all the Rectangles and Squares"""
 
