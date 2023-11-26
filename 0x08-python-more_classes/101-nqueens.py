@@ -3,7 +3,7 @@
         placing N non-attacking queens on an N×N chessboard.
         Write a program that solves the N queens problem.
     """
-    import sys
+import sys
 
 
 def init_board(n):
