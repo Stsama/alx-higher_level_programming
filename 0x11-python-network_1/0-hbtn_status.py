@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 # fetches https://alx-intranet.hbtn.io
+
+
 if __name__ == "__main__":
     from urllib.request import Request, urlopen
     req = Request('https://alx-intranet.hbtn.io/status')
