@@ -12,4 +12,3 @@ if __name__ == "__main__":
     basic = HTTPBasicAuth(sys.argv[1], sys.argv[2])
     req = requests.get('https://api.github.com/user', auth=basic)
     print(req.json().get("id"))
-
